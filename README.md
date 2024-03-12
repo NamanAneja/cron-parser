@@ -6,7 +6,7 @@ Requirements:
 1. Given a cli command having cron expression, return a view of the times at which it will run.
 
 
-How to Run:
+How to Run(Navigate to cron-parser project before running the below commands):
 1. pip install .
 2. python main.py "*/15 0 1,15 * 1-5 /usr/bin/find"
 
@@ -16,4 +16,9 @@ Features:
 
 For running on IDE
 1. script: "C:\Users\naman\PycharmProjects\cron-parser\main.py"
-2. parameters: ""0 0 29 2 * naman test abc/ddh/jst""
+2. parameters: "0 0 29 2 * naman test abc/ddh/jst"
+
+Test-Cases
+1. To run test cases navigate to cron-parser project and run "pytest".
+
+Note: This is build in python 3.11
