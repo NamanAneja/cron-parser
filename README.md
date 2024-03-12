@@ -13,3 +13,7 @@ How to Run:
 Features:
 1. Handles step values, range of values, any value (*), and lists of values for each cron field.
 2. Provides clear and human-readable output with field names and corresponding time values.
+
+For running on IDE
+1. script: "C:\Users\naman\PycharmProjects\cron-parser\main.py"
+2. parameters: ""0 0 29 2 * naman test abc/ddh/jst""
